@@ -20,3 +20,16 @@ insert into Products(name,description,price,stock,created_at)
 values
 ('Laptop','',1000,15)
 ```
+
+select 
+```
+select * from products
+select name,price from products
+select name,price from products where price > 5000
+```
+update 
+```
+update products set  price=60000 where price = 10000
+```
+
+
