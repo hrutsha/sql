@@ -14,3 +14,9 @@ create table Products(
     created_at timestamp default current_timestamp
 );
 ```
+data insertion 
+```
+insert into Products(name,description,price,stock,created_at)
+values
+('Laptop','',1000,15)
+```
