@@ -31,5 +31,8 @@ update
 ```
 update products set  price=60000 where price = 10000
 ```
-
+delete 
+```
+delete from products where price = 1000
+```
 
